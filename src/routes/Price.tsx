@@ -1,5 +1,3 @@
-import { useQuery } from "@tanstack/react-query";
-import { fetchPriceInfo } from "../api";
 import styled from "styled-components";
 
 

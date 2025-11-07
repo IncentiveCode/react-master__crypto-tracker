@@ -19,6 +19,7 @@
     "react": "^19.2.0",
     "react-apexcharts": "^1.8.0",
     "react-dom": "^19.2.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^7.9.5",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.19",
@@ -52,7 +53,8 @@
     ]
   },
   "devDependencies": {
-    "@tanstack/react-query-devtools": "^5.90.2"
+    "@tanstack/react-query-devtools": "^5.90.2",
+    "@types/react-helmet": "^6.1.11"
   },
   "homepage": "https://incentivecode.github.io/react-master__crypto-tracker"
 }

@@ -4,6 +4,7 @@ import { fetchCoinInfo, fetchPriceInfo } from "../api";
 import styled from "styled-components";
 import Price from "./Price";
 import Chart from "./Chart";
+import { Helmet } from "react-helmet";
 
 
 const Container = styled.div`
@@ -180,6 +181,11 @@ function Coin() {
 
 	return (
 		<Container>
+			<Helmet>
+				<title>
+					{state?.name ? state.name : loading ? "Loading..." : infoData?.name}
+				</title>
+			</Helmet>
 			<Header>
 				<BackBtn>
 					<Link to="/">&larr;</Link>

@@ -1,5 +1,5 @@
 export async function fetchCoins() {
-	return fetch("/data.json")
+	return fetch("/react-master__crypto-tracker/data.json")
 		.then((res) => res.json());
 }
 

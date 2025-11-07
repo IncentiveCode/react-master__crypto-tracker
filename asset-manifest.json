@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/react-master__crypto-tracker/static/js/main.3e74ec50.js",
+    "static/js/453.dd2cd863.chunk.js": "/react-master__crypto-tracker/static/js/453.dd2cd863.chunk.js",
+    "index.html": "/react-master__crypto-tracker/index.html",
+    "main.3e74ec50.js.map": "/react-master__crypto-tracker/static/js/main.3e74ec50.js.map",
+    "453.dd2cd863.chunk.js.map": "/react-master__crypto-tracker/static/js/453.dd2cd863.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3e74ec50.js"
+  ]
+}
